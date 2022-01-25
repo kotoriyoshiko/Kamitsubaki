@@ -1,0 +1,44 @@
+Arguments: 
+  E:\node\node.exe C:\Users\kotori.wang\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sass
+
+PATH: 
+  E:\Kamitsubaki\node_modules\.bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\sdk\platform-tools;C:\Program Files (x86)\dotnet\;D:\bin;E:\node\;C:\Program Files\Git\cmd;C:\Users\kotori.wang\AppData\Local\Android\Sdk\platform-tools;C:\Users\kotori.wang\AppData\Local\Android\Sdk\emulator;C:\Users\kotori.wang\AppData\Local\Android\Sdk\tools;C:\Users\kotori.wang\AppData\Local\Android\Sdk\tools\bin;";C:\Program Files\Java\jdk1.8.0_301\bin;";"C:\Program Files\Java\jdk1.8.0_301\jre\bin;";C:\Users\kotori.wang\AppData\Local\Microsoft\WindowsApps;;C:\Users\kotori.wang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kotori.wang\AppData\Roaming\npm;E:\WebStorm 2021.2\bin;
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.4
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\Kamitsubaki\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "kamitsubaki",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vue-tsc --noEmit && vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.25",
+      "vue-router": "^4.0.12"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.0.0",
+      "typescript": "^4.4.4",
+      "vite": "^2.7.2",
+      "vue-tsc": "^0.29.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
