@@ -1,5 +1,7 @@
 <template>
-这里是Button的文档
+<button>
+  <slot/>
+</button>
 </template>
 
 <script>
